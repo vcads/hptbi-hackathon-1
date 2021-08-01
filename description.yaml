@@ -1,14 +1,21 @@
-title: "Your Hackathon Project Title"
-version: v0.1
-language: R
+title: "Nova HPTBI Prediction Models"
+version: v1.0
+language: python
 author:
-- name: Peter E. DeWitt
-  email: peter.dewitt@cuanschutz.edu
-  github: dewittpe
-- name: Author Two
-  email: author.two@school.edu
-  github: author2
+- name: C. Nataraj
+  email: nataraj@villanova.edu
+  github: vcads
+- name: Shivam Maheshwari
+  email: maheshwaris1231@gmail.com
+  github: vcads
+- name: Dieter Bender
+  email: dbender2@villanova.edu
+  github: vcads
+- name: Tyler Alexander
+  email: tyler.alexander@jefferson.edu
+  github: vcads
 description: >
-  This is where you can write a few sentences about your submission.  Modeling
-  approach, author contributions, etc.
-url: https://github.com/dewittpe/hackathon
+  Mortality prediction is accomplished through mutual information for feature ranking and SVM as a classifier.  
+  FSS models are built individually using mutual information and random forest classifiers.  In both cases,
+  expert medical insights were integrated into feature engineering.
+url: https://github.com/vcads/hackathon
